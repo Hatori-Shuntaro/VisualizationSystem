@@ -1,0 +1,9 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <UnityWSASolutionName>VisualizationSystem</UnityWSASolutionName>
+        <UnityWSASolutionDir>D:\Unity\VisualizationSystem\App\</UnityWSASolutionDir>
+        <UnityProjectDir>D:\Unity\VisualizationSystem\</UnityProjectDir>
+        <UnityWSAPlayerDir>C:\Program Files\Unity2017_2_2p4\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
+    </PropertyGroup>
+</Project>

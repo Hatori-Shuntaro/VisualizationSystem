@@ -1,0 +1,2 @@
+D:\Unity\VisualizationSystem\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+D:\Unity\VisualizationSystem\App\VisualizationSystem\VisualizationSystem.csproj;x86
