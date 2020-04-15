@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\bin\x86\Release\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-13T11:23:38.024</Modified>
+      <Modified>2020-04-15T11:34:29.702</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\bin\x86\Release\VisualizationSystem.exe">
       <PackagePath>entrypoint\VisualizationSystem.exe</PackagePath>
-      <Modified>2020-04-13T11:23:26.449</Modified>
+      <Modified>2020-04-15T11:34:20.087</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\daily\.nuget\packages\microsoft.applicationinsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -500,7 +500,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\Resource.res">
       <PackagePath>Resource.res</PackagePath>
-      <Modified>2020-04-13T11:22:28.735</Modified>
+      <Modified>2020-04-15T11:33:25.152</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
@@ -558,15 +558,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2020-04-13T11:21:50.533</Modified>
+      <Modified>2020-04-15T11:32:46.064</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2020-04-13T11:21:34.351</Modified>
+      <Modified>2020-04-15T11:32:45.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2020-04-13T11:21:33.222</Modified>
+      <Modified>2020-04-15T11:32:44.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -574,31 +574,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2020-04-13T11:21:50.532</Modified>
+      <Modified>2020-04-15T11:32:46.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2020-04-13T11:21:34.434</Modified>
+      <Modified>2020-04-15T11:32:45.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2020-04-13T11:21:43.283</Modified>
+      <Modified>2020-04-15T11:32:45.735</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2020-04-13T11:21:33.220</Modified>
+      <Modified>2020-04-15T11:32:44.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2020-04-13T11:21:43.283</Modified>
+      <Modified>2020-04-15T11:32:45.735</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
-      <Modified>2020-04-13T11:22:28.689</Modified>
+      <Modified>2020-04-15T11:33:25.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2020-04-13T11:22:28.691</Modified>
+      <Modified>2020-04-15T11:33:25.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -606,215 +606,215 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\bin\x86\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-13T11:23:27.323</Modified>
+      <Modified>2020-04-15T11:34:20.509</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.TilemapModule.dll">
       <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.651</Modified>
+      <Modified>2020-04-15T11:34:28.692</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.TextRenderingModule.dll">
       <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.655</Modified>
+      <Modified>2020-04-15T11:34:28.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.UIModule.dll">
       <PackagePath>UnityEngine.UIModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.659</Modified>
+      <Modified>2020-04-15T11:34:28.702</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.UIElementsModule.dll">
       <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.672</Modified>
+      <Modified>2020-04-15T11:34:28.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.TerrainPhysicsModule.dll">
       <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.676</Modified>
+      <Modified>2020-04-15T11:34:28.723</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.ScreenCaptureModule.dll">
       <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.678</Modified>
+      <Modified>2020-04-15T11:34:28.726</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.PhysicsModule.dll">
       <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.688</Modified>
+      <Modified>2020-04-15T11:34:28.734</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.TerrainModule.dll">
       <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.694</Modified>
+      <Modified>2020-04-15T11:34:28.740</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.StyleSheetsModule.dll">
       <PackagePath>UnityEngine.StyleSheetsModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.698</Modified>
+      <Modified>2020-04-15T11:34:28.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.SpriteMaskModule.dll">
       <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.701</Modified>
+      <Modified>2020-04-15T11:34:28.747</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.VRModule.dll">
       <PackagePath>UnityEngine.VRModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.709</Modified>
+      <Modified>2020-04-15T11:34:28.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.VideoModule.dll">
       <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.713</Modified>
+      <Modified>2020-04-15T11:34:28.761</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.VehiclesModule.dll">
       <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.716</Modified>
+      <Modified>2020-04-15T11:34:28.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.WindModule.dll">
       <PackagePath>UnityEngine.WindModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.719</Modified>
+      <Modified>2020-04-15T11:34:28.767</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.WebModule.dll">
       <PackagePath>UnityEngine.WebModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.723</Modified>
+      <Modified>2020-04-15T11:34:28.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.UnityWebRequestWWWModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.726</Modified>
+      <Modified>2020-04-15T11:34:28.778</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.UnityConnectModule.dll">
       <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.729</Modified>
+      <Modified>2020-04-15T11:34:28.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.UnityAnalyticsModule.dll">
       <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.732</Modified>
+      <Modified>2020-04-15T11:34:28.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.UNETModule.dll">
       <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.739</Modified>
+      <Modified>2020-04-15T11:34:28.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.UnityWebRequestTextureModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.742</Modified>
+      <Modified>2020-04-15T11:34:28.796</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.UnityWebRequestModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.747</Modified>
+      <Modified>2020-04-15T11:34:28.802</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.UnityWebRequestAudioModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.750</Modified>
+      <Modified>2020-04-15T11:34:28.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.ClothModule.dll">
       <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.753</Modified>
+      <Modified>2020-04-15T11:34:28.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.AudioModule.dll">
       <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.760</Modified>
+      <Modified>2020-04-15T11:34:28.815</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.ARModule.dll">
       <PackagePath>UnityEngine.ARModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.765</Modified>
+      <Modified>2020-04-15T11:34:28.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.DirectorModule.dll">
       <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.768</Modified>
+      <Modified>2020-04-15T11:34:28.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.CrashReportingModule.dll">
       <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.771</Modified>
+      <Modified>2020-04-15T11:34:28.827</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.CoreModule.dll">
       <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.943</Modified>
+      <Modified>2020-04-15T11:34:29.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.AnimationModule.dll">
       <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.954</Modified>
+      <Modified>2020-04-15T11:34:29.014</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.AIModule.dll">
       <PackagePath>UnityEngine.AIModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.964</Modified>
+      <Modified>2020-04-15T11:34:29.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.AccessibilityModule.dll">
       <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.968</Modified>
+      <Modified>2020-04-15T11:34:29.024</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.ParticlesLegacyModule.dll">
       <PackagePath>UnityEngine.ParticlesLegacyModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.972</Modified>
+      <Modified>2020-04-15T11:34:29.027</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.JSONSerializeModule.dll">
       <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.975</Modified>
+      <Modified>2020-04-15T11:34:29.030</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.983</Modified>
+      <Modified>2020-04-15T11:34:29.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.PerformanceReportingModule.dll">
       <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.987</Modified>
+      <Modified>2020-04-15T11:34:29.043</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.ParticleSystemModule.dll">
       <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.997</Modified>
+      <Modified>2020-04-15T11:34:29.057</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.InputModule.dll">
       <PackagePath>UnityEngine.InputModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:36.000</Modified>
+      <Modified>2020-04-15T11:34:29.061</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.GridModule.dll">
       <PackagePath>UnityEngine.GridModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:36.004</Modified>
+      <Modified>2020-04-15T11:34:29.064</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.GameCenterModule.dll">
       <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:36.008</Modified>
+      <Modified>2020-04-15T11:34:29.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
-      <Modified>2020-04-13T11:22:11.713</Modified>
+      <Modified>2020-04-15T11:33:07.814</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.IMGUIModule.dll">
       <PackagePath>UnityEngine.IMGUIModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:36.019</Modified>
+      <Modified>2020-04-15T11:34:29.080</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.ImageConversionModule.dll">
       <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
-      <Modified>2020-04-13T11:23:36.023</Modified>
+      <Modified>2020-04-15T11:34:29.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2020-04-13T11:23:36.059</Modified>
+      <Modified>2020-04-15T11:34:29.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.Timeline.dll">
       <PackagePath>UnityEngine.Timeline.dll</PackagePath>
-      <Modified>2020-04-13T11:23:36.079</Modified>
+      <Modified>2020-04-15T11:34:29.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\nunit.framework.dll">
       <PackagePath>nunit.framework.dll</PackagePath>
-      <Modified>2020-04-13T11:23:36.108</Modified>
+      <Modified>2020-04-15T11:34:29.168</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
-      <Modified>2020-04-13T11:23:36.155</Modified>
+      <Modified>2020-04-15T11:34:29.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.SpatialTracking.dll">
       <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
-      <Modified>2020-04-13T11:23:36.167</Modified>
+      <Modified>2020-04-15T11:34:29.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.HoloLens.dll">
       <PackagePath>UnityEngine.HoloLens.dll</PackagePath>
-      <Modified>2020-04-13T11:23:36.175</Modified>
+      <Modified>2020-04-15T11:34:29.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
-      <Modified>2020-04-13T11:23:36.209</Modified>
+      <Modified>2020-04-15T11:34:29.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\GLTFSerializationUWP.dll">
       <PackagePath>GLTFSerializationUWP.dll</PackagePath>
-      <Modified>2020-04-13T11:23:36.226</Modified>
+      <Modified>2020-04-15T11:34:29.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
-      <Modified>2020-04-13T11:23:35.617</Modified>
+      <Modified>2020-04-15T11:34:28.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\VisualizationSystem\App\VisualizationSystem\bin\x86\Release\Core\VisualizationSystem.exe">
       <PackagePath>VisualizationSystem.exe</PackagePath>
-      <Modified>2020-04-13T11:23:38.020</Modified>
+      <Modified>2020-04-15T11:34:29.698</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

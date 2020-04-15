@@ -557,7 +557,7 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: VisualizationSystem
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: D:\Unity\VisualizationSystem\Assets\WSATestCertificate.pfx
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany
