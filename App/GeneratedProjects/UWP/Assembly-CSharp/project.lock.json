@@ -15702,12 +15702,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\daily\\Unity\\VisualizationSystem\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "projectUniqueName": "D:\\Unity\\VisualizationSystem\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
       "projectName": "Assembly-CSharp",
-      "projectPath": "C:\\Users\\daily\\Unity\\VisualizationSystem\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
-      "projectJsonPath": "C:\\Users\\daily\\Unity\\VisualizationSystem\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
+      "projectPath": "D:\\Unity\\VisualizationSystem\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "projectJsonPath": "D:\\Unity\\VisualizationSystem\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
       "packagesPath": "C:\\Users\\daily\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\daily\\Unity\\VisualizationSystem\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\",
+      "outputPath": "D:\\Unity\\VisualizationSystem\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\daily\\AppData\\Roaming\\NuGet\\NuGet.Config",

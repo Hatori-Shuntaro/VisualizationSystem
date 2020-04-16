@@ -400,13 +400,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05dfe2663509c954cb4f1b05cce974a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  threshold: 0.2
-  arraySize: 256
   debugText: {fileID: 1531822458}
-  HittingMarkPrefab: {fileID: 1403319824678994, guid: a56ee2d71f808044daeeec2f2f072962,
+  hittingMarkPrefab: {fileID: 1454500877883636, guid: 3790a7a0c6cd3094aa21aa07114d56cb,
     type: 2}
-  sensitivity: 100
-  lastLoudnessInfluence: 0.5
+  cursor: {fileID: 2130052693}
 --- !u!4 &1072334001
 Transform:
   m_ObjectHideFlags: 0
@@ -839,3 +836,8 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1957087284}
   m_Script: {fileID: 11500000, guid: 0decd33ba8702954885a62b5bc1a778e, type: 3}
+--- !u!1 &2130052693 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000012072213228, guid: a611e772ef8ddf64d8106a9cbb70f31c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1957087284}

@@ -1,89 +1,102 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using HoloToolkit.Unity.InputModule;
-using HoloToolkit.Unity.SpatialMapping;
 
 public class SoundAnalysis : MonoBehaviour {
-    
-    public Text debugText;
-
-    public GameObject hittingMarkPrefab;
-
-    // 最終的な音量にかける倍率
-    private float gain = 200f;
-
-    // 前フレームの音量と比較したときの閾値
-    private float threshold = 0.5f;
-
-    private float volume;
-
-    // 前フレームの音量
-    private float lastVolume;
 
     private int samplingNumber = 256;
 
-    private float[] samplingValues;
+    private AudioSource audio;
 
-    private AudioSource audioSource;
+    private LineRenderer lineRenderer;
 
-    private int counter = 0;
+    private Vector3 startPosition;
+
+    private Vector3 endPosition;
+
+    private float[] samplingDatas;
+
+    private float gain = 200f;
+
+    private int sectionOne, sectionTwo, sectionThree, sectionFour;
+
+    private int[] index;
 
 	// Use this for initialization
 	void Start () {
-        audioSource = GetComponent<AudioSource>();
+        audio = GetComponent<AudioSource>();
+        lineRenderer = GetComponent<LineRenderer>();
 
-        samplingValues = new float[samplingNumber];
+        startPosition = lineRenderer.GetPosition(0);
+        endPosition = lineRenderer.GetPosition(lineRenderer.positionCount - 1);
 
-        // オーディオソースとマイクがあるか確認
-        if((audioSource != null) & (Microphone.devices.Length > 0))
-        {
-            string deviceName = Microphone.devices[0];
-            int minFrequency, maxFrequency;
-
-            // サンプリング周波数の最大・最小値を取得
-            Microphone.GetDeviceCaps(deviceName, out minFrequency, out maxFrequency);
-
-            // 適切なサンプリング時間を計算
-            int samplingTime = minFrequency / samplingNumber;
-
-            audioSource.clip = Microphone.Start(deviceName, true, samplingTime, minFrequency);
-            while (!(Microphone.GetPosition(deviceName) > 0)) { }
-            audioSource.Play();
-        }
-    }
+        samplingDatas = new float[samplingNumber];
+        index = new int[samplingNumber];
+	}
 	
 	// Update is called once per frame
 	void Update () {
-        audioSource.GetSpectrumData(samplingValues, 0, FFTWindow.Hamming);
+        AudioListener.GetSpectrumData(samplingDatas, 0, FFTWindow.Hamming);
 
-        float sum = 0f;
-        for(int i = 0; i < samplingValues.Length; i++)
+        int levelCount = samplingDatas.Length;
+        int maxIndex = 0;
+        float maxValue = 0f;
+        Vector3[] positions = new Vector3[levelCount];
+        
+        for(int i = 0; i < levelCount; i++)
         {
-            // 各周波数ごとのデータを足す
-            sum += samplingValues[i];
+            positions[i] = startPosition + (endPosition - startPosition) * (float)i / (float)(levelCount - 1);
+            positions[i].y += samplingDatas[i] * gain;
+
+            // 周波数成分の中から最も大きくなっている周波数を計算する
+            float value = samplingDatas[i];
+
+            if(value > maxValue)
+            {
+                maxValue = value;
+                maxIndex = i;
+            }
         }
 
-        float volume = Mathf.Clamp01(sum * gain / (float)samplingValues.Length);
+        Debug.Log("---------------------------------------");
+        Debug.Log("最も大きい周波数のindex番号:" + maxIndex);
+        Debug.Log("---------------------------------------");
 
-        // 前フレームとの音量の差を計算
-        if (volume - lastVolume > threshold)
+        float maxFrequency = maxIndex * AudioSettings.outputSampleRate / 2 / samplingDatas.Length;
+        index[maxIndex]++;
+
+        if(maxFrequency > 0 & maxFrequency < 500)
         {
-            counter++;
-            Debug.Log(volume);
-            debugText.text = counter + "hit";
-            //RaycastHit hitInfo;
-
-            //// カーソルの方向にRayを飛ばす
-            //bool isHit = Physics.Raycast(GazeManager.Instance.GazeOrigin, GazeManager.Instance.GazeNormal, out hitInfo, 20f, SpatialMappingManager.Instance.LayerMask);
-            //if (isHit)
-            //{
-            //    // 印を生成
-            //    Instantiate(hittingMarkPrefab, hitInfo.transform.position, Quaternion.identity);
-            //}
+            sectionOne++;
+        }
+        else if(maxFrequency >= 500 & maxFrequency < 1000)
+        {
+            sectionTwo++;
+        }
+        else if(maxFrequency >= 1000 & maxFrequency < 1500)
+        {
+            sectionThree++;
+        }
+        else if(maxFrequency >= 1500 & maxFrequency < 2000)
+        {
+            sectionFour++;
         }
 
-        lastVolume = volume;
-    }
+        Debug.Log("0-500:" + sectionOne + "  500-1000:" + sectionTwo + "  1000-1500:" + sectionThree + "  1500-2000:" + sectionFour);
+
+        int max = 0;
+        for(int i = 0; i < index.Length; i++)
+        {
+            int value = index[i];
+            if(value > max)
+            {
+                max = value;
+                maxIndex = i;
+            }
+        }
+        Debug.Log("maxIndex:" + maxIndex + "  value:" + max + "  freq:" + maxIndex * AudioSettings.outputSampleRate / 2 / samplingDatas.Length);
+
+        lineRenderer.positionCount = levelCount;
+        lineRenderer.SetPositions(positions);
+	}
 }
