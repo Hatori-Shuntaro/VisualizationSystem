@@ -7,10 +7,10 @@
 # Default behavior is to never overwrite files
 VisualizationSystem.sln: modified
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 4FCF72A4D5EDB37E24C206A7BCFE7AF1
-VisualizationSystem\App.cs: 3FBC40FB39A47BB8BEABDB80FD8A729F
+VisualizationSystem\App.cs: modified
 VisualizationSystem\Package.appxmanifest: AD28447E26B5F8ED462C559499678777
 VisualizationSystem\project.json: 1D02BC64BAC0D041019673A1C4C51737
-VisualizationSystem\VisualizationSystem.csproj: 11FEC18E02603F065D22C18A0FCBFC08
+VisualizationSystem\VisualizationSystem.csproj: 5A14DA85BD32F64836B678B53EE89EAB
 VisualizationSystem\VisualizationSystem.csproj.user: modified
 VisualizationSystem\Assets\SplashScreen.scale-200.png: 60618416282ED104FD1473935716045D
 VisualizationSystem\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084
@@ -26,5 +26,5 @@ VisualizationSystem\bin\x86\Release\AppX\Assets\StoreLogo.png: 90BD194CA4A7CFFF3
 VisualizationSystem\bin\x86\Release\AppX\Assets\Wide310x150Logo.scale-200.png: C96846A80DF667F87355569CD816192D
 VisualizationSystem\bin\x86\Release\AppX\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826
 VisualizationSystem\obj\x86\Release\VisualizationSystem.csproj.CopyComplete: D41D8CD98F00B204E9800998ECF8427E
-VisualizationSystem\Properties\AssemblyInfo.cs: A17C5EC06FC0553D9EDAFF74553DEEC2
+VisualizationSystem\Properties\AssemblyInfo.cs: modified
 VisualizationSystem\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826

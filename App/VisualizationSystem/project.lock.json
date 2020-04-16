@@ -16050,12 +16050,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\Unity\\VisualizationSystem\\App\\VisualizationSystem\\VisualizationSystem.csproj",
+      "projectUniqueName": "C:\\Users\\daily\\Unity\\VisualizationSystem\\App\\VisualizationSystem\\VisualizationSystem.csproj",
       "projectName": "VisualizationSystem",
-      "projectPath": "D:\\Unity\\VisualizationSystem\\App\\VisualizationSystem\\VisualizationSystem.csproj",
-      "projectJsonPath": "D:\\Unity\\VisualizationSystem\\App\\VisualizationSystem\\project.json",
+      "projectPath": "C:\\Users\\daily\\Unity\\VisualizationSystem\\App\\VisualizationSystem\\VisualizationSystem.csproj",
+      "projectJsonPath": "C:\\Users\\daily\\Unity\\VisualizationSystem\\App\\VisualizationSystem\\project.json",
       "packagesPath": "C:\\Users\\daily\\.nuget\\packages\\",
-      "outputPath": "D:\\Unity\\VisualizationSystem\\App\\VisualizationSystem\\obj\\",
+      "outputPath": "C:\\Users\\daily\\Unity\\VisualizationSystem\\App\\VisualizationSystem\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\daily\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -16068,8 +16068,8 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "D:\\Unity\\VisualizationSystem\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
-              "projectPath": "D:\\Unity\\VisualizationSystem\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
+            "C:\\Users\\daily\\Unity\\VisualizationSystem\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+              "projectPath": "C:\\Users\\daily\\Unity\\VisualizationSystem\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
             }
           }
         }
