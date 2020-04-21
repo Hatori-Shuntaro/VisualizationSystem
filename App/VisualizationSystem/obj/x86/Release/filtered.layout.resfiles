@@ -17,9 +17,14 @@ Data\Resources\unity_builtin_extra
 Data\sharedassets0.assets
 Data\sharedassets0.assets.resS
 GpuTiming.dll
+GpuTiming.pdb
 MicStreamSelector.dll
+MicStreamSelector.pdb
 PlaneFinding.dll
+PlaneFinding.pdb
 Properties\Default.rd.xml
 Resource.res
 SharingClient.dll
+SharingClient.pdb
 SpatialUnderstanding.dll
+SpatialUnderstanding.pdb

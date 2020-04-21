@@ -23,7 +23,7 @@ public class DefectHittingSound : MonoBehaviour {
     // 前フレームの音量
     private float lastVolume;
 
-    private int samplingNumber = 128;
+    private int samplingNumber = 256;
 
     private float[] samplingValues;
 
@@ -31,12 +31,8 @@ public class DefectHittingSound : MonoBehaviour {
 
     private int counter = 0;
 
-    System.Diagnostics.Stopwatch sw;
-
     // Use this for initialization
     void Start () {
-        sw = new System.Diagnostics.Stopwatch();
-
         audioSource = GetComponent<AudioSource>();
 
         samplingValues = new float[samplingNumber];
@@ -52,6 +48,7 @@ public class DefectHittingSound : MonoBehaviour {
 
             // 適切なサンプリング時間を計算
             int samplingTime = minFrequency / samplingNumber;
+            Debug.Log(samplingTime);
 
             audioSource.clip = Microphone.Start(deviceName, true, samplingTime, minFrequency);
             while (!(Microphone.GetPosition(deviceName) > 0)) { }
@@ -61,7 +58,7 @@ public class DefectHittingSound : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        audioSource.GetSpectrumData(samplingValues, 1, FFTWindow.Rectangular);
+        audioSource.GetSpectrumData(samplingValues, 1, FFTWindow.Hamming);
 
         float sum = 0f;
         for(int i = 0; i < samplingValues.Length; i++)
@@ -78,11 +75,10 @@ public class DefectHittingSound : MonoBehaviour {
             counter++;
             Debug.Log(volume);
             debugText.text = counter + "hit\n";
-            //Debug.Log(sw.ElapsedMilliseconds.ToString("f10"));
-            sw = System.Diagnostics.Stopwatch.StartNew();
+            debugText.text += "Position: " + cursor.transform.position + "\n";
+            debugText.text += "Rotation: " + cursor.transform.rotation * Quaternion.Euler(new Vector3(90, 0, 0));
             GameObject markPrefab = Instantiate(hittingMarkPrefab, cursor.transform.position, cursor.transform.rotation * Quaternion.Euler(new Vector3(90, 0, 0)));
-            sw.Stop();
-            debugText.text += sw.ElapsedMilliseconds.ToString("f10") + "ms";
+
             // カーソルの方向にRayを飛ばす
             //RaycastHit hitInfo;
 
