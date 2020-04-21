@@ -13,12 +13,14 @@ public class LoadTextData : MonoBehaviour {
 
     public GameObject origin;
 
-	// Use this for initialization
-	void Start ()
+    private string filePath = "D:/Test.csv";
+
+    // Use this for initialization
+    void Start ()
     {
         try
         {
-            using (StreamReader sr = new StreamReader("D:/Test.csv"))
+            using (StreamReader sr = new StreamReader(new FileStream(filePath, FileMode.Open)))
             {
                 string line;
 
